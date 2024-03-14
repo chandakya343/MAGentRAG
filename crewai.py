@@ -2,7 +2,7 @@ import os
 from crewai import Agent, Task, Crew, Process
 from langchain_anthropic import ChatAnthropic
 
-os.environ['ANTHROPIC_API_KEY'] = "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"
+os.environ['ANTHROPIC_API_KEY'] = "sk-ant-......"
 llm = ChatAnthropic(model="claude-1.3")
 
 from crewai_tools import (
